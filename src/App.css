@@ -1,0 +1,106 @@
+.section {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: move;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header {
+  text-align: center;
+}
+
+.drag-button {
+  cursor: move;
+}
+.edit-button {
+  float: right;
+  margin-right: 10px;
+}
+.toggle-button {
+  float: right;
+  margin-right: 10px;
+}
+.description-button {
+  float: right;
+  margin-right: 10px;
+}
+.description {
+  display: block;
+
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* CSS for Save button inside sections */
+.save-button {
+  color: rgb(19, 18, 18);
+
+  padding: 2px 2px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+.save-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* CSS for fixed Save and Next button */
+.fixed-bottom {
+  padding: 10px 20px;
+  width: 300px;
+  height: 52px;
+  background: #8a4893;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edit-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 27px;
+  color: #000;
+  padding: 0;
+}
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 27px;
+  color: #000;
+  padding: 20;
+  margin-left: 10px;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button.active {
+  color: #8a4893;
+}
+.description-button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  font-size: 26px;
+  color: #5b5858;
+  padding: 0;
+}
+
+.description-button:focus {
+  outline: none;
+}
